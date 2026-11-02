@@ -1,0 +1,4 @@
+id,target_table,target_field,type_length,required,source_system,source_table_field,transformation_rule,default_if_blank,example_in,example_out,owner,status,notes
+1,customer,first_name,varchar(50),Y,Legacy CRM,CUST.FULL_NAME,Split on first space; take first token,Reject row,Maria L Gomez,Maria,Sales ops,Agreed,
+2,customer,customer_type,code,Y,Legacy CRM,CUST.TYPE_CD,R->RETAIL; W->WHOLESALE; D->WHOLESALE,RETAIL,D,WHOLESALE,Finance,Open question,Confirm D (distributor) maps to WHOLESALE
+3,order,order_date,date,Y,Legacy ERP,ORD.ORD_DT (text),Parse DD/MM/YYYY,Reject row,03/11/2025,2025-11-03,IT,Agreed,Source stores dates as text
