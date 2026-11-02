@@ -36,8 +36,9 @@ Spotted a gap, or have a template that saved a project? Open an issue or a pull 
 Prachit Parikh is a business analyst who turns what stakeholders ask for into requirements a team can test, checks the data with SQL, and sees changes through UAT. He writes about AI, data and the future of business analysis.
 
 - Website: [prachitparikh.github.io](https://prachitparikh.github.io/)
+- Videos: [YouTube](https://www.youtube.com/@PrachitParikh1)
 - Writing: [Medium](https://medium.com/@prachit.parikh) · [Substack](https://prachitparikh.substack.com) · [Hashnode](https://prachitparikh.hashnode.dev) · [Dev.to](https://dev.to/prachitparikh) · [WordPress](https://prachitparikhblog.wordpress.com/) · [Blogger](https://prachitparikh-ba.blogspot.com)
-- Elsewhere: [LinkedIn](https://www.linkedin.com/in/prachitp) · [Bluesky](https://bsky.app/profile/prachitparikh.bsky.social) · [Kaggle](https://www.kaggle.com/prachitparikh)
+- Elsewhere: [LinkedIn](https://www.linkedin.com/in/prachitp) · [Bluesky](https://bsky.app/profile/prachitparikh.bsky.social) · [Kaggle](https://www.kaggle.com/prachitparikh) · [Quora](https://www.quora.com/profile/Prachit-Parikh-2) · [Hub site](https://sites.google.com/view/prachit-parikh)
 
 ## License
 
