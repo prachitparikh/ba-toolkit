@@ -1,0 +1,3 @@
+req_id,requirement,source,priority,user_story,design_ref,test_case_ids,test_status,defect_ids,uat_signoff,owner,notes
+REQ-004,Orders over the customer's credit limit are held for credit review,Credit team workshop 2026-02-10,Must,US-112,DES-07,TC-001;TC-002,Passed,,Approved 2026-03-12,Credit manager,
+REQ-005,Credit team is notified within 5 minutes of a hold,Credit team workshop 2026-02-10,Must,US-113,DES-07,TC-003,Failed,DEF-212,Pending,Credit manager,Email delay in UAT environment
