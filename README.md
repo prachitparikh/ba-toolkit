@@ -15,6 +15,17 @@ I'm [Prachit Parikh](https://prachitparikh.github.io/), a business analyst. I bu
 | [`sql/data-validation-checks.sql`](sql/data-validation-checks.sql) | Seven SQL checks to run before anyone trusts a report or signs UAT |
 | [`checklists/agent-ready-requirements.md`](checklists/agent-ready-requirements.md) | Writing requirements precise enough for AI coding agents and spec-driven tools |
 
+## PDF versions
+
+Prefer something you can print or hand to a stakeholder? Formatted PDFs of the main templates:
+
+- [Acceptance criteria template (PDF)](pdf/prachit-parikh-acceptance-criteria-template.pdf)
+- [UAT plan template (PDF)](pdf/prachit-parikh-uat-plan-template.pdf)
+- [7 SQL data validation checks (PDF)](pdf/prachit-parikh-sql-data-validation-checks.pdf)
+- [Agent-ready requirements checklist (PDF)](pdf/prachit-parikh-agent-ready-requirements-checklist.pdf)
+
+The same PDFs are on [my website](https://prachitparikh.github.io/#toolkit). New templates land here most weeks, each with a PDF.
+
 ## How to use it
 
 1. Click **Code → Download ZIP**, or copy the single file you need.
