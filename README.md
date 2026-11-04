@@ -14,6 +14,7 @@ I'm [Prachit Parikh](https://prachitparikh.github.io/), a business analyst. I bu
 | [`templates/traceability-matrix-template.csv`](templates/traceability-matrix-template.csv) | Linking every requirement to its design, test cases, defects and sign-off |
 | [`sql/data-validation-checks.sql`](sql/data-validation-checks.sql) | Seven SQL checks to run before anyone trusts a report or signs UAT |
 | [`checklists/agent-ready-requirements.md`](checklists/agent-ready-requirements.md) | Writing requirements precise enough for AI coding agents and spec-driven tools |
+| [`examples/revenue-reconciliation/`](examples/revenue-reconciliation/) | A worked example you can run: data, SQL and tests that bridge a $48,300 gap between a revenue dashboard and the finance ledger |
 
 ## PDF versions
 

@@ -1,0 +1,7 @@
+step_order,step,amount,running_total
+0,"Finance ledger revenue (completed orders, US Eastern date)",1236200.00,1236200.00
+1,Cancelled orders still counted on the dashboard,9600.00,1245800.00
+2,"Time-zone cutoff (dashboard uses UTC, finance uses US Eastern)",4200.00,1250000.00
+3,JOIN fan-out on order_promotions (double counting),41900.00,1291900.00
+4,Orphan orders dropped by the INNER JOIN to customers,-7400.00,1284500.00
+5,Revenue dashboard,1284500.00,1284500.00
