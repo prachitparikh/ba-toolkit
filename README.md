@@ -38,7 +38,7 @@ The same PDFs are on [my website](https://prachitparikh.github.io/#toolkit). New
 
 ## The thinking behind each template
 
-- **Acceptance criteria:** vague words like "quickly" hide decisions nobody has made, and they surface in UAT when they're expensive to fix. The template runs five checks before a story goes to the team. Walkthrough: [How to Write Acceptance Criteria Testers Can't Misread](https://www.youtube.com/@PrachitParikh1) on YouTube.
+- **Acceptance criteria:** vague words like "quickly" hide decisions nobody has made, and they surface in UAT when they're expensive to fix. The template runs five checks before a story goes to the team. Walkthrough: [How to Write Acceptance Criteria Testers Can't Misread](https://www.youtube.com/watch?v=puLtC-dnP1E) on YouTube.
 - **UAT plan:** most UAT pain comes from unclear entry and exit criteria, not from testing itself. The template forces those decisions up front. Background: [What a good UAT plan actually looks like](https://prachitparikh.substack.com/p/what-a-good-uat-plan-actually-looks).
 - **Data mapping:** the "example in / example out" columns catch more misunderstandings than any rule. Background: [Data mapping document template](https://prachitparikh.hashnode.dev/data-mapping-document-template).
 - **SQL checks:** row counts, totals, duplicates, orphans, nulls, allowed values and record tracing. Background: [7 SQL checks I run before UAT sign-off](https://dev.to/prachitparikh/7-sql-checks-i-run-before-uat-sign-off-with-queries-you-can-copy-38h5).
