@@ -15,6 +15,9 @@ I'm [Prachit Parikh](https://prachitparikh.github.io/), a business analyst. I bu
 | [`sql/data-validation-checks.sql`](sql/data-validation-checks.sql) | Seven SQL checks to run before anyone trusts a report or signs UAT |
 | [`checklists/agent-ready-requirements.md`](checklists/agent-ready-requirements.md) | Writing requirements precise enough for AI coding agents and spec-driven tools |
 | [`examples/revenue-reconciliation/`](examples/revenue-reconciliation/) | A worked example you can run: data, SQL and tests that bridge a $48,300 gap between a revenue dashboard and the finance ledger |
+| [`templates/ai-agent-test-plan.md`](templates/ai-agent-test-plan.md) | Testing an AI agent from dev to prod: golden set, buckets, pass marks set before the first run, three-run stability check, UAT weird cases and handoffs, one-page sign-off, prod reruns and weekly sampling |
+| [`checklists/should-this-be-an-ai-agent.md`](checklists/should-this-be-an-ai-agent.md) | Deciding whether a process needs rules, AI that recommends, or an agent: five questions, three levels, the undo test |
+| [`templates/ai-agent-job-description.md`](templates/ai-agent-job-description.md) | The one-page job description every AI agent needs: permission matrix (alone / ask first / never), blast radius, budget, handover triggers, log, off switch, one owner |
 
 ## PDF versions
 
@@ -40,6 +43,9 @@ The same PDFs are on [my website](https://prachitparikh.github.io/#toolkit). New
 - **Data mapping:** the "example in / example out" columns catch more misunderstandings than any rule. Background: [Data mapping document template](https://prachitparikh.hashnode.dev/data-mapping-document-template).
 - **SQL checks:** row counts, totals, duplicates, orphans, nulls, allowed values and record tracing. Background: [7 SQL checks I run before UAT sign-off](https://dev.to/prachitparikh/7-sql-checks-i-run-before-uat-sign-off-with-queries-you-can-copy-38h5).
 - **Agent-ready requirements:** AI agents build whatever you specify, confidently and fast. Background: [AI agents can write the code now. The bottleneck is the requirements.](https://medium.com/@prachit.parikh/ai-agents-can-write-the-code-now-the-bottleneck-is-the-requirements-5f7a1ee86362)
+- **AI agent test plan:** an agent doesn't pass a test, it passes a pass rate. Set the bar per bucket before the first run, and keep the golden set as the regression test in prod. Walkthrough: [How to Test an AI Agent Before It Goes Live (Dev to Prod)](https://www.youtube.com/watch?v=IBteCgiXc6Q).
+- **Should this be an AI agent?:** many "agent" requests are an IF statement wearing a blazer. Five questions tell you the level a process actually needs. Walkthrough: [Should This Be an AI Agent? A 5-Question Test for BAs](https://www.youtube.com/@PrachitParikh1).
+- **AI agent job description:** "never" is a test, not a wish. Write the never rules as acceptance criteria, then add the two requirements everyone forgets: a budget and an off switch with names. Walkthrough: [Write the "Never" Rules](https://www.youtube.com/@PrachitParikh1).
 
 ## Contributing
 
