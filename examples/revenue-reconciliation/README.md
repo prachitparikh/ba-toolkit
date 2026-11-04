@@ -19,6 +19,8 @@ The setup: for October 2026, finance reports **$1,236,200** in revenue and the r
 
 Unexplained difference: **0.00**. That last line is the one that matters. If it isn't zero, the job isn't finished.
 
+**See it as a dashboard:** [Dashboard vs finance revenue reconciliation on Tableau Public](https://public.tableau.com/app/profile/prachit.parikh/viz/DashboardvsFinanceRevenueReconciliationinSQLPrachitParikh/RevenueReconciliation). The bridge, the daily ledger against the dashboard, and the daily gap split by cause, built from this folder's `output/` files.
+
 ## What each step means
 
 1. **Cancelled orders.** Finance only books completed orders. The dashboard query has no status filter, so six cancelled orders spread across the month get counted anyway.
