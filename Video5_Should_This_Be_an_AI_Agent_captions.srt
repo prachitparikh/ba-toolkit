@@ -1,0 +1,679 @@
+1
+00:00:00,000 --> 00:00:03,420
+Here's the request every BA has seen.
+
+2
+00:00:03,740 --> 00:00:07,500
+We need an AI agent for invoice approvals.
+
+3
+00:00:07,960 --> 00:00:09,780
+Then you look at the process.
+
+4
+00:00:10,240 --> 00:00:12,460
+It's three rules and a spreadsheet.
+
+5
+00:00:12,900 --> 00:00:14,280
+That's not an agent.
+
+6
+00:00:14,720 --> 00:00:17,440
+That's an IF statement wearing a blazer.
+
+7
+00:00:17,800 --> 00:00:20,400
+And it's an expensive mix-up,
+
+8
+00:00:20,700 --> 00:00:25,540
+Gartner expects over 40% of agentic AI projects to
+
+9
+00:00:25,240 --> 00:00:28,060
+be cancelled by the end of 2027.
+
+10
+00:00:28,400 --> 00:00:32,340
+And it says many use cases pitched as agentic
+
+11
+00:00:32,040 --> 00:00:34,420
+don't need an agent at all.
+
+12
+00:00:34,820 --> 00:00:39,780
+Gartner even has a name for relabeling chatbots and
+
+13
+00:00:39,480 --> 00:00:41,880
+old automations as agents.
+
+14
+00:00:42,460 --> 00:00:43,760
+Agent washing.
+
+15
+00:00:44,820 --> 00:00:49,440
+It estimates only about 130 of the thousands of
+
+16
+00:00:49,140 --> 00:00:51,900
+agentic AI vendors are a real thing.
+
+17
+00:00:52,200 --> 00:00:54,180
+I'm Prachit,
+
+18
+00:00:54,100 --> 00:00:55,400
+a Business Analyst.
+
+19
+00:00:55,560 --> 00:00:57,880
+Today, three levels of automation,
+
+20
+00:00:58,220 --> 00:00:59,340
+five questions,
+
+21
+00:00:59,500 --> 00:01:02,940
+and one test that quietly kills half of the
+
+22
+00:01:02,640 --> 00:01:04,640
+agent ideas in the meeting.
+
+23
+00:01:05,400 --> 00:01:06,980
+It's question four.
+
+24
+00:01:07,400 --> 00:01:09,280
+First, the levels.
+
+25
+00:01:09,720 --> 00:01:11,580
+Level 1 is rules.
+
+26
+00:01:11,960 --> 00:01:12,980
+Same input,
+
+27
+00:01:13,220 --> 00:01:14,240
+same output,
+
+28
+00:01:14,460 --> 00:01:15,360
+a workflow,
+
+29
+00:01:15,540 --> 00:01:16,360
+a formula,
+
+30
+00:01:16,780 --> 00:01:19,060
+a bot that clicks the same buttons.
+
+31
+00:01:19,440 --> 00:01:23,400
+Level 2 is AI that reads messy inputs and
+
+32
+00:01:23,100 --> 00:01:24,260
+makes a judgment.
+
+33
+00:01:24,760 --> 00:01:26,140
+Label this email.
+
+34
+00:01:26,500 --> 00:01:28,520
+Pull the total off this PDF.
+
+35
+00:01:28,900 --> 00:01:31,160
+Level 3 is an agent.
+
+36
+00:01:31,640 --> 00:01:36,000
+AI that takes actions across systems several steps on
+
+37
+00:01:35,700 --> 00:01:36,400
+its own.
+
+38
+00:01:36,100 --> 00:01:38,460
+Think vending machine,
+
+39
+00:01:38,700 --> 00:01:39,540
+translator,
+
+40
+00:01:39,960 --> 00:01:42,360
+and a new hire with a company card.
+
+41
+00:01:42,767 --> 00:01:44,287
+Question 1.
+
+42
+00:01:44,547 --> 00:01:47,627
+Can you write the decision as rules on one
+
+43
+00:01:47,327 --> 00:01:47,947
+page?
+
+44
+00:01:48,707 --> 00:01:49,587
+If yes,
+
+45
+00:01:49,827 --> 00:01:50,547
+stop.
+
+46
+00:01:51,167 --> 00:01:52,307
+Build the rules.
+
+47
+00:01:52,807 --> 00:01:53,607
+They're cheaper,
+
+48
+00:01:53,887 --> 00:01:55,207
+they're easier to test,
+
+49
+00:01:55,347 --> 00:01:57,207
+and they never hallucinate.
+
+50
+00:01:57,727 --> 00:02:02,607
+Quote, I approve invoices under $500 that match a
+
+51
+00:02:02,307 --> 00:02:03,227
+purchase order.
+
+52
+00:02:03,607 --> 00:02:05,527
+It doesn't need a personality.
+
+53
+00:02:05,847 --> 00:02:08,527
+And if nobody can write the rules because they
+
+54
+00:02:08,227 --> 00:02:09,507
+change every Tuesday,
+
+55
+00:02:10,027 --> 00:02:11,407
+that's a different problem.
+
+56
+00:02:11,887 --> 00:02:13,967
+The policy isn't decided yet,
+
+57
+00:02:14,167 --> 00:02:17,147
+no model fixes an undecided policy.
+
+58
+00:02:17,500 --> 00:02:19,080
+Question 2.
+
+59
+00:02:19,540 --> 00:02:21,140
+Is the input messy?
+
+60
+00:02:21,980 --> 00:02:23,540
+Free text emails,
+
+61
+00:02:23,900 --> 00:02:25,620
+scanned PDFs,
+
+62
+00:02:25,640 --> 00:02:26,540
+voicemails,
+
+63
+00:02:26,920 --> 00:02:29,220
+that's where AI earns its keep.
+
+64
+00:02:29,560 --> 00:02:31,720
+But if the input is clean form,
+
+65
+00:02:32,020 --> 00:02:35,440
+the best AI project might be fixing the form.
+
+66
+00:02:36,880 --> 00:02:41,020
+Turn the free text box into a dropdown and
+
+67
+00:02:40,720 --> 00:02:43,120
+half the AI problem disappears.
+
+68
+00:02:43,540 --> 00:02:46,660
+Sometimes the right AI is a dropdown.
+
+69
+00:02:46,967 --> 00:02:51,307
+Question three does it need to act or just
+
+70
+00:02:51,007 --> 00:02:51,787
+recommend.
+
+71
+00:02:52,927 --> 00:02:55,567
+Reading and suggesting is level two.
+
+72
+00:02:55,827 --> 00:02:59,307
+Clicking approve in three systems is level three.
+
+73
+00:02:59,867 --> 00:03:03,067
+Every action you add is one more thing that
+
+74
+00:03:02,767 --> 00:03:05,167
+can go wrong in production at 2 a.m.
+
+75
+00:03:05,227 --> 00:03:07,707
+with nobody watching but the logs.
+
+76
+00:03:08,133 --> 00:03:09,553
+Question 4.
+
+77
+00:03:09,873 --> 00:03:10,913
+The one I promised.
+
+78
+00:03:11,333 --> 00:03:12,533
+The undo test.
+
+79
+00:03:13,013 --> 00:03:14,233
+If it gets it wrong,
+
+80
+00:03:14,373 --> 00:03:15,553
+can you undo it?
+
+81
+00:03:16,033 --> 00:03:17,893
+A draft that a person reviews.
+
+82
+00:03:18,773 --> 00:03:19,913
+It's an easy undo.
+
+83
+00:03:20,373 --> 00:03:21,233
+A refund.
+
+84
+00:03:21,473 --> 00:03:22,573
+A deleted record.
+
+85
+00:03:22,933 --> 00:03:25,273
+An email to 10,000 customers.
+
+86
+00:03:25,813 --> 00:03:27,093
+No undo.
+
+87
+00:03:27,153 --> 00:03:29,933
+There's no Ctrl+Z for an email blast.
+
+88
+00:03:30,233 --> 00:03:35,953
+Ask anyone who sent the test version of the
+
+89
+00:03:35,653 --> 00:03:36,493
+whole list.
+
+90
+00:03:36,193 --> 00:03:40,173
+No undo means a person approves the action every
+
+91
+00:03:39,873 --> 00:03:40,493
+time.
+
+92
+00:03:40,833 --> 00:03:42,193
+Question 5.
+
+93
+00:03:42,513 --> 00:03:43,913
+Can you measure better?
+
+94
+00:03:44,533 --> 00:03:46,193
+Time per case,
+
+95
+00:03:46,273 --> 00:03:47,153
+error rate,
+
+96
+00:03:47,113 --> 00:03:48,353
+cost per case,
+
+97
+00:03:48,413 --> 00:03:51,313
+measure them today before anything gets built.
+
+98
+00:03:51,393 --> 00:03:52,333
+No baseline,
+
+99
+00:03:52,733 --> 00:03:53,973
+no business case.
+
+100
+00:03:54,553 --> 00:03:57,373
+Otherwise, in six months somebody asks,
+
+101
+00:03:57,373 --> 00:03:58,573
+did the AI work?
+
+102
+00:03:58,853 --> 00:04:01,353
+And the honest answer is a vibe.
+
+103
+00:04:01,733 --> 00:04:05,513
+Let's run it on our made-up client Northstar Systems.
+
+104
+00:04:05,993 --> 00:04:07,293
+Invoice matching.
+
+105
+00:04:07,513 --> 00:04:09,133
+The rules fit on one page.
+
+106
+00:04:09,693 --> 00:04:10,753
+Level 1.
+
+107
+00:04:11,053 --> 00:04:14,313
+No agent and the vendor demo goes back in
+
+108
+00:04:14,013 --> 00:04:14,733
+the drawer.
+
+109
+00:04:14,973 --> 00:04:15,853
+Refund emails.
+
+110
+00:04:16,353 --> 00:04:17,413
+Messy input,
+
+111
+00:04:17,593 --> 00:04:19,393
+but it only needs to recommend.
+
+112
+00:04:20,393 --> 00:04:21,693
+Level 2.
+
+113
+00:04:22,133 --> 00:04:26,353
+And a person approves chasing vendors for missing invoices.
+
+114
+00:04:26,053 --> 00:04:30,633
+messy replies and it sends emails and updates a
+
+115
+00:04:30,333 --> 00:04:31,013
+tracker.
+
+116
+00:04:31,493 --> 00:04:35,373
+Level 3 with the person approving the first message
+
+117
+00:04:35,073 --> 00:04:36,233
+to each vendor.
+
+118
+00:04:36,667 --> 00:04:38,187
+Three processes,
+
+119
+00:04:38,467 --> 00:04:41,467
+three different answers from the same five questions.
+
+120
+00:04:41,827 --> 00:04:42,907
+That's the point.
+
+121
+00:04:43,207 --> 00:04:44,667
+Should we use AI?
+
+122
+00:04:45,627 --> 00:04:47,147
+Is the wrong question.
+
+123
+00:04:47,487 --> 00:04:49,927
+Which level does this process need?
+
+124
+00:04:50,067 --> 00:04:51,147
+Is the right one?
+
+125
+00:04:51,433 --> 00:04:55,353
+I put five questions on a one-page scoring sheet
+
+126
+00:04:55,053 --> 00:04:56,713
+in my BA Toolkit,
+
+127
+00:04:56,893 --> 00:04:58,773
+free linked in the description.
+
+128
+00:04:59,153 --> 00:05:02,053
+Bring it to the next meeting where someone says,
+
+129
+00:05:02,093 --> 00:05:04,393
+Agent, in the first five minutes.
+
+130
+00:05:04,900 --> 00:05:06,260
+Bonus trick,
+
+131
+00:05:06,680 --> 00:05:07,800
+and it's a fun one,
+
+132
+00:05:08,040 --> 00:05:11,580
+paste the process into an AI model and ask
+
+133
+00:05:11,280 --> 00:05:13,680
+it to argue against using an agent,
+
+134
+00:05:13,000 --> 00:05:15,140
+not for it,
+
+135
+00:05:15,340 --> 00:05:16,100
+against.
+
+136
+00:05:17,620 --> 00:05:20,420
+Models are great at building whatever case you ask
+
+137
+00:05:20,120 --> 00:05:20,700
+for,
+
+138
+00:05:21,120 --> 00:05:23,460
+so ask for one you need to hear.
+
+139
+00:05:23,160 --> 00:05:25,940
+If it's best arguments holds up,
+
+140
+00:05:26,180 --> 00:05:27,820
+you just saved a budget line.
+
+141
+00:05:28,133 --> 00:05:31,013
+And don't walk into that meeting with a flat
+
+142
+00:05:30,713 --> 00:05:31,453
+no.
+
+143
+00:05:31,673 --> 00:05:34,753
+Say, let's start one level down and earn the
+
+144
+00:05:34,453 --> 00:05:35,293
+next one.
+
+145
+00:05:35,533 --> 00:05:36,553
+Rules first,
+
+146
+00:05:36,833 --> 00:05:37,773
+then AI,
+
+147
+00:05:37,913 --> 00:05:40,793
+then an agent that acts.
+
+148
+00:05:41,353 --> 00:05:44,433
+Once the numbers from level 2 say it's ready,
+
+149
+00:05:44,693 --> 00:05:47,313
+nobody argues with a plan that ends in a
+
+150
+00:05:47,013 --> 00:05:47,613
+yes.
+
+151
+00:05:48,033 --> 00:05:50,833
+The level also changes what you write.
+
+152
+00:05:51,033 --> 00:05:51,953
+At level 2,
+
+153
+00:05:51,733 --> 00:05:54,173
+acceptance criteria becomes pass rates.
+
+154
+00:05:54,213 --> 00:05:55,373
+At level 3,
+
+155
+00:05:55,253 --> 00:05:57,313
+you also need the never rules,
+
+156
+00:05:57,473 --> 00:05:59,853
+what the agent must never do on its own.
+
+157
+00:06:00,200 --> 00:06:02,880
+So, can you write the rules?
+
+158
+00:06:03,240 --> 00:06:04,740
+Is the input messy?
+
+159
+00:06:05,040 --> 00:06:06,380
+Does it need to act?
+
+160
+00:06:06,540 --> 00:06:08,040
+Can you undo it?
+
+161
+00:06:08,440 --> 00:06:09,820
+And can you measure better?
+
+162
+00:06:10,260 --> 00:06:11,540
+Five questions,
+
+163
+00:06:11,580 --> 00:06:12,660
+three levels.
+
+164
+00:06:13,167 --> 00:06:14,487
+Quiz time!
+
+165
+00:06:14,907 --> 00:06:17,347
+Six questions popping up right now,
+
+166
+00:06:17,447 --> 00:06:18,567
+easy to hard,
+
+167
+00:06:18,827 --> 00:06:20,027
+how many can you get?
+
+168
+00:06:54,433 --> 00:06:59,233
+Then tell me what's the most over-engineered AI request
+
+169
+00:06:58,933 --> 00:07:02,233
+you've seen at work and if your product already
+
+170
+00:07:01,933 --> 00:07:06,353
+has an agent The never rules video is next
