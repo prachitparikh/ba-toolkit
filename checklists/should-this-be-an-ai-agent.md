@@ -2,7 +2,7 @@
 
 Five questions to run before anyone builds an agent. Most requests don't need one. Some need rules, some need AI that recommends, and a few need an agent that acts. This sheet tells you which level a process needs, so the conversation in the meeting is about the process, not the buzzword.
 
-Companion video: [Should This Be an AI Agent? A 5-Question Test for BAs](https://www.youtube.com/@PrachitParikh1)
+Companion video: [Should This Be an AI Agent? A 5-Question Test for BAs](https://www.youtube.com/watch?v=AZLoC-rGk6Y)
 
 ---
 
