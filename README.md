@@ -44,7 +44,7 @@ The same PDFs are on [my website](https://prachitparikh.github.io/#toolkit). New
 - **SQL checks:** row counts, totals, duplicates, orphans, nulls, allowed values and record tracing. Background: [7 SQL checks I run before UAT sign-off](https://dev.to/prachitparikh/7-sql-checks-i-run-before-uat-sign-off-with-queries-you-can-copy-38h5).
 - **Agent-ready requirements:** AI agents build whatever you specify, confidently and fast. Background: [AI agents can write the code now. The bottleneck is the requirements.](https://medium.com/@prachit.parikh/ai-agents-can-write-the-code-now-the-bottleneck-is-the-requirements-5f7a1ee86362)
 - **AI agent test plan:** an agent doesn't pass a test, it passes a pass rate. Set the bar per bucket before the first run, and keep the golden set as the regression test in prod. Walkthrough: [How to Test an AI Agent Before It Goes Live (Dev to Prod)](https://www.youtube.com/watch?v=IBteCgiXc6Q).
-- **Should this be an AI agent?:** many "agent" requests are an IF statement wearing a blazer. Five questions tell you the level a process actually needs. Walkthrough: [Should This Be an AI Agent? A 5-Question Test for BAs](https://www.youtube.com/@PrachitParikh1).
+- **Should this be an AI agent?:** many "agent" requests are an IF statement wearing a blazer. Five questions tell you the level a process actually needs. Walkthrough: [Should This Be an AI Agent? A 5-Question Test for BAs](https://www.youtube.com/watch?v=AZLoC-rGk6Y) on YouTube.
 - **AI agent job description:** "never" is a test, not a wish. Write the never rules as acceptance criteria, then add the two requirements everyone forgets: a budget and an off switch with names. Walkthrough: [Write the "Never" Rules](https://www.youtube.com/@PrachitParikh1).
 
 ## Contributing
