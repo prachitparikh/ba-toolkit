@@ -2,7 +2,7 @@
 
 "Handle refunds" is not a requirement. We wouldn't give a new hire a company card with a one-line job description, so don't give one to software that never sleeps. This template is the one page every AI agent needs before it touches a real system: what it does alone, what needs a person, what it must never do, plus the two requirements almost everyone forgets (a budget and an off switch).
 
-Companion video: [Write the "Never" Rules: Guardrail Requirements for AI Agents](https://www.youtube.com/@PrachitParikh1)
+Companion video: [Write the "Never" Rules: Guardrail Requirements for AI Agents](https://www.youtube.com/watch?v=QF16ElYV52E)
 
 Example used below: a fictional company, Northstar Systems, and its refund agent.
 
