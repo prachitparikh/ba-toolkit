@@ -1,6 +1,6 @@
 # Meeting notes to user stories with AI: the receipts method
 
-By Prachit Parikh. Companion to the video "Meeting Notes to User Stories with AI" on my YouTube channel.
+By Prachit Parikh. Companion to the video [How to Write User Stories with AI (Without Made-Up Requirements)](https://www.youtube.com/watch?v=cXMIEbvokcc) on my YouTube channel.
 
 AI tools still add things to summaries that were never in the source. On Vectara's hallucination leaderboard (updated 22 Oct 2026), the best model added unsupported content to 1.8% of document summaries, and plenty of well-known models sit between 5% and 10%. When the output is a backlog, one invented story is real work nobody asked for. This kit makes every AI-written story prove where it came from.
 
