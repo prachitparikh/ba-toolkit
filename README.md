@@ -18,7 +18,7 @@ I'm [Prachit Parikh](https://prachitparikh.github.io/), a business analyst. I bu
 | [`templates/ai-agent-test-plan.md`](templates/ai-agent-test-plan.md) | Testing an AI agent from dev to prod: golden set, buckets, pass marks set before the first run, three-run stability check, UAT weird cases and handoffs, one-page sign-off, prod reruns and weekly sampling |
 | [`checklists/should-this-be-an-ai-agent.md`](checklists/should-this-be-an-ai-agent.md) | Deciding whether a process needs rules, AI that recommends, or an agent: five questions, three levels, the undo test |
 | [`templates/ai-agent-job-description.md`](templates/ai-agent-job-description.md) | The one-page job description every AI agent needs: permission matrix (alone / ask first / never), blast radius, budget, handover triggers, log, off switch, one owner |
-| [`templates/meeting-notes-to-user-stories-receipts.md`](templates/meeting-notes-to-user-stories-receipts.md) | Meeting notes to user stories with AI: the receipts method (prompt, buckets, receipts table, check script) |
+| [`templates/meeting-notes-to-user-stories-receipts.md`](templates/meeting-notes-to-user-stories-receipts.md) | Meeting notes to user stories with AI: the receipts method (prompt, buckets, receipts table, check script). Video: [How to Write User Stories with AI](https://www.youtube.com/watch?v=cXMIEbvokcc) |
 
 ## PDF versions
 
@@ -48,7 +48,7 @@ The same PDFs are on [my website](https://prachitparikh.github.io/#toolkit). New
 - **AI agent test plan:** an agent doesn't pass a test, it passes a pass rate. Set the bar per bucket before the first run, and keep the golden set as the regression test in prod. Walkthrough: [How to Test an AI Agent Before It Goes Live (Dev to Prod)](https://www.youtube.com/watch?v=IBteCgiXc6Q).
 - **Should this be an AI agent?:** many "agent" requests are an IF statement wearing a blazer. Five questions tell you the level a process actually needs. Walkthrough: [Should This Be an AI Agent? A 5-Question Test for BAs](https://www.youtube.com/watch?v=AZLoC-rGk6Y) on YouTube.
 - **AI agent job description:** "never" is a test, not a wish. Write the never rules as acceptance criteria, then add the two requirements everyone forgets: a budget and an off switch with names. Walkthrough: [Write the "Never" Rules: Guardrail Requirements for AI Agents](https://www.youtube.com/watch?v=QF16ElYV52E) on YouTube.
-- **Meeting notes to user stories with AI:** no receipt, no requirement. Every AI-written story quotes the transcript word for word with a speaker and a timestamp, sorted into decided, wished or assumed, and the check has two parts: does the quote exist, and does it actually support the story.
+- **Meeting notes to user stories with AI:** no receipt, no requirement. Every AI-written story quotes the transcript word for word with a speaker and a timestamp, sorted into decided, wished or assumed, and the check has two parts: does the quote exist, and does it actually support the story. Walkthrough: [How to Write User Stories with AI (Without Made-Up Requirements)](https://www.youtube.com/watch?v=cXMIEbvokcc) on YouTube.
 
 ## Contributing
 
