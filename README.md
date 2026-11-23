@@ -19,11 +19,15 @@ I'm [Prachit Parikh](https://prachitparikh.github.io/), a business analyst. I bu
 | [`checklists/should-this-be-an-ai-agent.md`](checklists/should-this-be-an-ai-agent.md) | Deciding whether a process needs rules, AI that recommends, or an agent: five questions, three levels, the undo test |
 | [`templates/ai-agent-job-description.md`](templates/ai-agent-job-description.md) | The one-page job description every AI agent needs: permission matrix (alone / ask first / never), blast radius, budget, handover triggers, log, off switch, one owner |
 | [`templates/meeting-notes-to-user-stories-receipts.md`](templates/meeting-notes-to-user-stories-receipts.md) | Meeting notes to user stories with AI: the receipts method (prompt, buckets, receipts table, check script). Video: [How to Write User Stories with AI](https://www.youtube.com/watch?v=cXMIEbvokcc) |
+| [`templates/prebuilt-ai-agent-fit-gap-matrix.md`](templates/prebuilt-ai-agent-fit-gap-matrix.md) | Deciding whether to adopt a prebuilt (off-the-shelf) AI agent: six pass/fail gates, a first-match fit-gap decision table (Fit / Configure / Extend / Change our process / Gap), an overall decision rule and a filled Northstar returns-agent example, plus a [CSV](templates/prebuilt-ai-agent-fit-gap-matrix.csv) |
+| [`templates/ai-data-dictionary-evidence-first.md`](templates/ai-data-dictionary-evidence-first.md) | Drafting a data dictionary with AI without trusting column names: template with Evidence and Test columns, a profiling query, a prompt that cites the profile, definitions turned into SQL checks, a blind test and owner sign-off |
 
 ## PDF versions
 
 Prefer something you can print or hand to a stakeholder? Formatted PDFs of the main templates:
 
+- [AI data dictionary, evidence first (PDF)](pdf/prachit-parikh-ai-data-dictionary-evidence-first.pdf)
+- [Prebuilt AI agent fit-gap matrix (PDF)](pdf/prachit-parikh-prebuilt-ai-agent-fit-gap-matrix.pdf)
 - [Meeting notes to user stories with AI: the receipts method (PDF)](pdf/prachit-parikh-meeting-notes-to-user-stories-receipts.pdf)
 - [Acceptance criteria template (PDF)](pdf/prachit-parikh-acceptance-criteria-template.pdf)
 - [UAT plan template (PDF)](pdf/prachit-parikh-uat-plan-template.pdf)
@@ -49,6 +53,8 @@ The same PDFs are on [my website](https://prachitparikh.github.io/#toolkit). New
 - **Should this be an AI agent?:** many "agent" requests are an IF statement wearing a blazer. Five questions tell you the level a process actually needs. Walkthrough: [Should This Be an AI Agent? A 5-Question Test for BAs](https://www.youtube.com/watch?v=AZLoC-rGk6Y) on YouTube.
 - **AI agent job description:** "never" is a test, not a wish. Write the never rules as acceptance criteria, then add the two requirements everyone forgets: a budget and an off switch with names. Walkthrough: [Write the "Never" Rules: Guardrail Requirements for AI Agents](https://www.youtube.com/watch?v=QF16ElYV52E) on YouTube.
 - **Meeting notes to user stories with AI:** no receipt, no requirement. Every AI-written story quotes the transcript word for word with a speaker and a timestamp, sorted into decided, wished or assumed, and the check has two parts: does the quote exist, and does it actually support the story. Walkthrough: [How to Write User Stories with AI (Without Made-Up Requirements)](https://www.youtube.com/watch?v=cXMIEbvokcc) on YouTube.
+- **Prebuilt AI agent fit-gap matrix:** a gap in a packaged screen means a workaround; a gap in a packaged agent that issues refunds means money out the door. Gates first, then fit-gap per step, decided before the contract. Background: [Prebuilt AI agents: run a fit-gap before you adopt one](https://prachitparikh.github.io/blog/prebuilt-ai-agents-fit-gap.html).
+- **AI data dictionary, evidence first:** an AI drafting a data dictionary reads column names, and column names drift away from the data. Every definition points at evidence from a profile, becomes a one-line SQL check, and is signed by a named owner. The blind test (rename the columns col_1, col_2 and ask again) shows where the name is the suspect.
 
 ## Contributing
 
