@@ -2,6 +2,8 @@
 
 PDF version: [prachit-parikh-ai-data-dictionary-evidence-first.pdf](../pdf/prachit-parikh-ai-data-dictionary-evidence-first.pdf)
 
+Companion video: [How to Create a Data Dictionary with AI (and Catch the Wrong Ones)](https://www.youtube.com/watch?v=RM8JN8GACQY)
+
 An AI can draft a data dictionary in seconds. The catch is that it reads column names, and column names drift away from the data. This kit makes every definition point at evidence from the data itself, turns each definition into a check you can run, and ends with a human owner signing the row.
 
 Example data below is fictional (client: Northstar Systems).
