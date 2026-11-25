@@ -21,11 +21,13 @@ I'm [Prachit Parikh](https://prachitparikh.github.io/), a business analyst. I bu
 | [`templates/meeting-notes-to-user-stories-receipts.md`](templates/meeting-notes-to-user-stories-receipts.md) | Meeting notes to user stories with AI: the receipts method (prompt, buckets, receipts table, check script). Video: [How to Write User Stories with AI](https://www.youtube.com/watch?v=cXMIEbvokcc) |
 | [`templates/prebuilt-ai-agent-fit-gap-matrix.md`](templates/prebuilt-ai-agent-fit-gap-matrix.md) | Deciding whether to adopt a prebuilt (off-the-shelf) AI agent: six pass/fail gates, a first-match fit-gap decision table (Fit / Configure / Extend / Change our process / Gap), an overall decision rule and a filled Northstar returns-agent example, plus a [CSV](templates/prebuilt-ai-agent-fit-gap-matrix.csv) |
 | [`templates/ai-data-dictionary-evidence-first.md`](templates/ai-data-dictionary-evidence-first.md) | Drafting a data dictionary with AI without trusting column names: template with Evidence and Test columns, a profiling query, a prompt that cites the profile, definitions turned into SQL checks, a blind test and owner sign-off. Video: [How to Create a Data Dictionary with AI](https://www.youtube.com/watch?v=RM8JN8GACQY) |
+| [`templates/process-map-from-interview-variant-check.md`](templates/process-map-from-interview-variant-check.md) | Process mapping with AI, checked against the event log: a prompt that drafts the map as Mermaid text and lists what the interview didn't say, a variant query (Postgres, SQLite, Snowflake, Oracle, SQL Server), an overlay prompt, a workshop question list and a five-case walkthrough |
 
 ## PDF versions
 
 Prefer something you can print or hand to a stakeholder? Formatted PDFs of the main templates:
 
+- [Process map from an interview, checked against the event log (PDF)](pdf/prachit-parikh-process-map-variant-check.pdf)
 - [AI data dictionary, evidence first (PDF)](pdf/prachit-parikh-ai-data-dictionary-evidence-first.pdf)
 - [Prebuilt AI agent fit-gap matrix (PDF)](pdf/prachit-parikh-prebuilt-ai-agent-fit-gap-matrix.pdf)
 - [Meeting notes to user stories with AI: the receipts method (PDF)](pdf/prachit-parikh-meeting-notes-to-user-stories-receipts.pdf)
@@ -55,6 +57,7 @@ The same PDFs are on [my website](https://prachitparikh.github.io/#toolkit). New
 - **Meeting notes to user stories with AI:** no receipt, no requirement. Every AI-written story quotes the transcript word for word with a speaker and a timestamp, sorted into decided, wished or assumed, and the check has two parts: does the quote exist, and does it actually support the story. Walkthrough: [How to Write User Stories with AI (Without Made-Up Requirements)](https://www.youtube.com/watch?v=cXMIEbvokcc) on YouTube.
 - **Prebuilt AI agent fit-gap matrix:** a gap in a packaged screen means a workaround; a gap in a packaged agent that issues refunds means money out the door. Gates first, then fit-gap per step, decided before the contract. Background: [Prebuilt AI agents: run a fit-gap before you adopt one](https://prachitparikh.github.io/blog/prebuilt-ai-agents-fit-gap.html).
 - **AI data dictionary, evidence first:** an AI drafting a data dictionary reads column names, and column names drift away from the data. Every definition points at evidence from a profile, becomes a one-line SQL check, and is signed by a named owner. The blind test (rename the columns col_1, col_2 and ask again) shows where the name is the suspect.
+- **Process map from an interview, checked against the event log:** the interview gives you the process people remember; the event log gives you the process they run. Draft the map with AI as Mermaid text, run one variant query to see every real path with counts, and turn every gap into a question for the process owner. On the fictional Northstar log, the interview map matched 41% of invoices.
 
 ## Contributing
 
